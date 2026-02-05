@@ -1,3 +1,3 @@
-# inclass1
+# MAD inclass1 assignment
 
-A new Flutter project.
+A Flutter project.
