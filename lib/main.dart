@@ -180,10 +180,17 @@ class __TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
           ),
         ],
       ),
-      // added Bottom App Bar
+      // added Bottom App Bar with Text
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
-        child: Container(height: 50.0),
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Text(
+            'Bottom App Bar',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+        ),
       ),
     );
   }
